@@ -1,2 +1,2 @@
 # apimlabsrc
-The menu script and other files to support the apimlabs.
+This repo contains the lab menu and supporting documents for the APIM labs. 
