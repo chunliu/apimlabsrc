@@ -3,8 +3,8 @@
 # Output csv file
 printf "No,User Name,Password\n" >> users.csv
 
-dName="APIMLab User"
-domain="@apimlabs.onmicrosoft.com"
+dName="APIMLab User"  # Display name of the account
+domain="@apimlabs.onmicrosoft.com"  # Domain name of the AAD
 
 i=1
 password=""

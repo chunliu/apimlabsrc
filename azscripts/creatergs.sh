@@ -4,7 +4,7 @@ rgname="apimlabrg"
 location="westus"
 
 uName="user"
-domain="@apimlabs.onmicrosoft.com"
+domain="@apimlabs.onmicrosoft.com" # Domain name of the AAD
 
 i=1
 while [ ${i} -le 90 ]
