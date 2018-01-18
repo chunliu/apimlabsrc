@@ -10,13 +10,13 @@ workflow APIMCreation-workflow
         [int]$startIndex,
         [Parameter (Mandatory= $true)]
         [int]$endIndex,
-        [string]$apimName = "apimlabsu",
-        [string]$uName = "user",
-        [string]$domainName = "@apimlabs.onmicrosoft.com",
-        [string]$rgName = "apimlabrg",
-        [string]$location = "West US",
-        [string]$organization = "APIM Labs",
-        [string]$sku = "Developer"
+        [string]$apimName = "apimlabsinst",  # Prefix of the name of the APIM instance
+        [string]$uName = "user",  # Prefix of the user name
+        [string]$domainName = "@apimlabs.onmicrosoft.com",  # Domain name of the AAD
+        [string]$rgName = "apimlabrg",  # Prefix of the resource group name
+        [string]$location = "West US",  # Location of the APIM instance
+        [string]$organization = "APIM Labs",  # Organization name
+        [string]$sku = "Developer"  # SKU of the APIM instance
     )
     
     # Create APIM instance settings array
@@ -54,7 +54,7 @@ workflow APIMCreation-workflow
         InlineScript
         {
             $apimSetting = $Using:apimSetting
-            
+
             # Authenticate to Azure
             $Conn = Get-AutomationConnection -Name AzureRunAsConnection
             Add-AzureRMAccount -ServicePrincipal -Tenant $Conn.TenantID `
