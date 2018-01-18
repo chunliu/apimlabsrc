@@ -1,7 +1,7 @@
-
 #
 # PowerShell Workflow runbook for Azure Automation. 
-# This runbook helps to create multiple APIM instances in parallel
+# This runbook helps to create multiple APIM instances in parallel.
+# This runbook requires the AzureRM.ApiManagement module to be imported in Azure Automation.
 #
 workflow APIMCreation-workflow
 {
