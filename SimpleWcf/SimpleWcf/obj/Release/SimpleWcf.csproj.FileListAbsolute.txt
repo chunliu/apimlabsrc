@@ -1,6 +1,0 @@
-C:\Users\chunliu\source\repos\SimpleWcf\SimpleWcf\bin\SimpleWcf.dll.config
-C:\Users\chunliu\source\repos\SimpleWcf\SimpleWcf\bin\SimpleWcf.dll
-C:\Users\chunliu\source\repos\SimpleWcf\SimpleWcf\bin\SimpleWcf.pdb
-C:\Users\chunliu\source\repos\SimpleWcf\SimpleWcf\obj\Release\SimpleWcf.csproj.CoreCompileInputs.cache
-C:\Users\chunliu\source\repos\SimpleWcf\SimpleWcf\obj\Release\SimpleWcf.dll
-C:\Users\chunliu\source\repos\SimpleWcf\SimpleWcf\obj\Release\SimpleWcf.pdb
